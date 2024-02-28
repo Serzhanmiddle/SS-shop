@@ -1,0 +1,121 @@
+
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+    transition: 0.5s;
+    
+    
+}
+.Links-container{
+    display: flex;
+}
+    
+    
+.nike-logo{
+    width: 100px;
+    height: 100px;
+}
+.Link-item {
+    margin: 20px;
+    display: flex;
+}
+
+.Link  {
+
+    font-size: 17px;
+    color: #060606;
+    text-decoration: none;
+    padding: 10px;
+    opacity: 0.7;
+    transition: .5s;
+
+}
+
+.button-input{
+    display: flex;
+    align-items: center;
+}
+.poisk{
+    width: 45%;
+    border-radius: 15px;
+    padding: 5px;
+    
+    
+}
+#knopka{
+    border: 30px;
+    width: 100px;
+    height:500px;
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+}
+.text{
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ header{
+    border: solid 10px;
+ }
+ 
+main{
+   background-color: #808080 ;
+   display: flex;
+   
+   
+   
+   
+}
+.main-text{
+    margin-left: 20px;
+}
+#company{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
+.name-company{
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.text-company{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    
+    width: 300px;
+}
+section{
+    background-color: #d7d7d7;
+}
+.cart-image{
+    width: 470px;
+    transition: transform 30ms;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.cart-image:hover{
+    transform: scale(1.03);
+}
+.cart{
+    display: flex;
+    gap: 15px;
+}
+#cart-hi{
+    margin-top: 50px;
+    
+}
